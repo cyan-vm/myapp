@@ -1,0 +1,37 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
+use App\Models\Doctor;
+use App\Http\Controllers\DoctorController;
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider and all of them will
+| be assigned to the "web" middleware group. Make something great!
+|
+*/
+
+Route::get('/', [DoctorController::class, 'index'])->name('index');
+Route::post('/submit-form', [DoctorController::class, 'submitForm'])->name('submitForm');
+// Route::get('/delete-all-doctors', 'DoctorController@deleteAllDoctors')->name('delete.all.doctors');
+Route::delete('/delete-all-doctors', [DoctorController::class, 'deleteAllDoctors'])->name('leteAllDoctors');
+Route::get('/add-two-doctors', [DoctorController::class, 'addTwoDoctors'])->name('addTwoDoctors');
+
+// Route::match(['get', 'post'], '/', function (Request $request) {
+//     $doctor = new Doctor();
+//     $doctor->full_name = $request->input('full_name', 'Dr. John Doe');
+//     $doctor->profession = $request->input('profession', 'Medic');
+//     $doctor->hospital = $request->input('hospital', 'Chiautempan');
+//     $doctor->sex = $request->input('sex', 'M');
+//     $doctor->age = $request->input('age', 22);
+//     $doctors = [$doctor];
+    
+//     return view('index', ['doctor' => $doctors[0]]);
+// });
+
+

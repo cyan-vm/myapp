@@ -1,0 +1,138 @@
+h2 {
+		text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+		text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+		
+}
+
+header {
+		background-color: #EDEBF6;
+}
+
+img {
+		width: 60px;
+}
+
+/* .footer-color {  */
+/* 		background-color: red; */
+/* 		padding: 20px; */
+/* 		margin-top: auto; /\* Push the footer to the bottom *\/ */
+/* } */
+
+/* Style for footer with gradient background */
+.beige-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 16px;
+    box-shadow: 0px -2px 12px rgba(0, 0, 0, 0.3); /* Increased shadow */
+    background: linear-gradient(135deg, #E0BA92, #FFE6B8); /* Adjusted gradient colors */
+}
+
+
+.purple-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 8px;
+    box-shadow: 0px -2px 12px rgba(0, 0, 0, 0.3); /* Increased shadow */
+    background: linear-gradient(135deg, #5C236A, #BA7BA1); /* Adjusted gradient colors */
+    color: white; /* Set text color to white for better contrast */
+}
+
+.purple-header {
+    /* position: fixed; */
+    /* bottom: 0; */
+    width: 100%;
+    padding: 6px;
+    box-shadow: 0px -2px 12px rgba(0, 0, 0, 0.3); /* Increased shadow */
+    background: linear-gradient(135deg, #5C236A, #BA7BA1); /* Adjusted gradient colors */
+    color: white; /* Set text color to white for better contrast */
+}
+
+/* .btn-submit { */
+/*     padding: 8px; */
+/*     border: none; */
+/*     border-radius: 4px; */
+/*     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2); /\* Shadow to lift the button *\/ */
+/*     background: linear-gradient(135deg, #E0BA92, #FFE6B8); /\* Same gradient colors *\/ */
+/*     color: #333; /\* Text color *\/ */
+/*     font-size: 16px; */
+/*     cursor: pointer; */
+/*     transition: all 0.3s ease; /\* Smooth transition on hover *\/ */
+/* } */
+
+.btn-submit {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #9ed497, #5dbb63); /* Purple gradient */
+    color: #333; /* Text color */
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+		color: white;
+}
+
+/* New green color */
+.btn-submit:hover {
+    background: linear-gradient(135deg, #9ed497, #5dbb63); /* Green gradient on hover */
+}
+
+
+
+.btn-submit:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect on hover */
+    transform: translateY(-2px); /* Lift the button slightly on hover */
+}
+
+
+/* @media (max-width: 768px) { */
+/*             table { */
+/*                 overflow-x: auto; */
+/*                 display: block; */
+/*                 white-space: nowrap; */
+/*             } */
+
+/*             th, */
+/*             td { */
+/*                 min-width: 100px; /\* Adjust min width for better readability *\/ */
+/*             } */
+/* } */
+
+/* Default styles for input fields */
+/* .input-field { */
+/*     /\* Add any common styling for input fields here *\/ */
+/*     width: 100%; /\* Adjust the width as needed *\/ */
+/*     box-sizing: border-box; /\* Ensure padding and borders don't increase the width *\/ */
+/* } */
+
+/* Media query for mobile devices */
+/* @media (max-width: 767px) { */
+/*     .form-group { */
+/*         margin-bottom: 10px; /\* Adds space between form inputs on mobile *\/ */
+/*     } */
+
+/*     /\* Adjust input fields to display in blocks for mobile *\/ */
+/*     .input-field { */
+/*         display: block; */
+/*         width: 100%; */
+/*     } */
+/* } */
+
+
